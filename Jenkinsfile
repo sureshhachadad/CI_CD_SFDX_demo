@@ -23,7 +23,7 @@ node {
         // when running in multi-branch job, one must issue this command
         checkout scm
     }
-  
+
       withCredentials([file(credentialsId: JWT_KEY_CRED_ID, variable: 'jwt_key_file')]) {
         stage('Validate Code') {
             if (isUnix()) {
@@ -46,6 +46,7 @@ node {
             println('Hello from a Job DSL script!')
             println(rmsg)
         }
+
     } 
   
 }
