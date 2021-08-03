@@ -22,6 +22,9 @@ yarn-error.log*
 # Dependency directories
 node_modules/
 
+# Jenkins file
+Jenkinsfile
+
 # Eslint cache
 .eslintcache
 
