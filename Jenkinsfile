@@ -46,7 +46,6 @@ node {
 
 	      stage('Deploy Code') {
 			
-			// need to pull out assigned username
 			if (isUnix()) {
 				rmsg = sh returnStdout: true, script: "${toolbelt} force:source:deploy  --manifest manifest/package.xml -u ${HUB_ORG}"
 			}else{
