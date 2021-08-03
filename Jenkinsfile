@@ -43,7 +43,7 @@ node {
 			} 
 			  
         }
-
+// checking
 	      stage('Deploy Code') {
 			
 			if (isUnix()) {
