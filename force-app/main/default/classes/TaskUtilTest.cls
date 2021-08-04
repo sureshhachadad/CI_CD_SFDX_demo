@@ -14,5 +14,19 @@ private class TaskUtilTest {
         String pri = TaskUtil.getTaskPriority('Montana');
         System.assertEquals(null, pri);
     }
+    @isTest static void testTaskPriority1() {
+        String pri = TaskUtil.getTaskPriority('NY');
+        System.assertEquals('Normal', pri);
+    }
+    
+    @isTest static void testTaskHighPriority1() {
+        String pri = TaskUtil.getTaskPriority('CA');
+        System.assertEquals('High', pri);
+    }
+    
+    @isTest static void testTaskPriorityInvalid1() {
+        String pri = TaskUtil.getTaskPriority1('Montana');
+        System.assertEquals(null, pri);
+    }
     
 }
