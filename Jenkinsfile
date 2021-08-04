@@ -43,7 +43,7 @@ node {
 			} 
 			  
         }
-// checking autoTrigger
+// checking autoTrigger Chain
 	      stage('Deploy Code') {
 			
 			if (isUnix()) {
