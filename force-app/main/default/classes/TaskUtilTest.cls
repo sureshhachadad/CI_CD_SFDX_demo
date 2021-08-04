@@ -28,18 +28,5 @@ private class TaskUtilTest {
         String pri = TaskUtil.getTaskPriority1('Montana');
         System.assertEquals(null, pri);
     }
-    @isTest static void testTaskPriority2() {
-        String pri = TaskUtil.getTaskPriority2('NY');
-        System.assertEquals('Normal', pri);
-    }
     
-    @isTest static void testTaskHighPriority2() {
-        String pri = TaskUtil.getTaskPriority2('CA');
-        System.assertEquals('High', pri);
-    }
-    
-    @isTest static void testTaskPriorityInvalid2() {
-        String pri = TaskUtil.getTaskPriority2('Montana');
-        System.assertEquals(null, pri);
-    }
 }
