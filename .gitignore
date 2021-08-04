@@ -12,6 +12,9 @@
 # LWC Jest coverage reports
 coverage/
 
+# Jenkins file
+Jenkinsfile
+
 # Logs
 logs
 *.log
