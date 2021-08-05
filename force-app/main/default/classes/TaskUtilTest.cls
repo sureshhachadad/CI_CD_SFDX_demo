@@ -14,5 +14,5 @@ private class TaskUtilTest {
         String pri = TaskUtil.getTaskPriority('Montana');
         System.assertEquals(null, pri);
     }
-    
+
 }
