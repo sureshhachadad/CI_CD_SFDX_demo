@@ -30,10 +30,7 @@
 		<members>*</members>
 		<name>ApprovalProcess</name>
 	</types>
-	<types>
-		<members>*</members>
-		<name>AssignmentRules</name>
-	</types>
+	
 	<types>
 		<members>*</members>
 		<name>AuraDefinitionBundle</name>
@@ -58,10 +55,7 @@
 		<members>*</members>
 		<name>Certificate</name>
 	</types>
-	<types>
-		<members>*</members>
-		<name>CleanDataService</name>
-	</types>
+	
 	<types>
 		<members>*</members>
 		<name>Community</name>
@@ -158,10 +152,7 @@
 		<members>*</members>
 		<name>EmailTemplate</name>
 	</types>
-	<types>
-		<members>*</members>
-		<name>EscalationRules</name>
-	</types>
+	
 	<types>
 		<members>*</members>
 		<name>ExternalDataSource</name>
@@ -254,10 +245,7 @@
 		<members>*</members>
 		<name>PostTemplate</name>
 	</types>
-	<types>
-		<members>*</members>
-		<name>Profile</name>
-	</types>
+	
 	<types>
 		<members>*</members>
 		<name>ProfileSessionSetting</name>
@@ -297,10 +285,6 @@
 	<types>
 		<members>*</members>
 		<name>Scontrol</name>
-	</types>
-	<types>
-		<members>*</members>
-		<name>Settings</name>
 	</types>
 	<types>
 		<members>*</members>
