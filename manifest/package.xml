@@ -4,14 +4,16 @@
 		<members>*</members>
 		<name>ActionLinkGroupTemplate</name>
 	</types>
-	<types>
-		<members>*</members>
-		<name>ApexClass</name>
-	</types>
+	
 	<types>
 		<members>*</members>
 		<name>ApexComponent</name>
 	</types>
+	<types>
+		<members>*</members>
+		<name>ApexClass</name>
+	</types>
+
 	<types>
 		<members>*</members>
 		<name>ApexPage</name>
@@ -333,4 +335,6 @@
 		<name>Workflow</name>
 	</types>
 	<version>52.0</version>
+
 </Package>
+
