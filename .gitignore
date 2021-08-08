@@ -12,6 +12,7 @@
 # LWC Jest coverage reports
 coverage/
 
+
 # Jenkins file
 Jenkinsfile
 
@@ -25,8 +26,6 @@ yarn-error.log*
 # Dependency directories
 node_modules/
 
-# Jenkins file
-Jenkinsfile
 
 # Eslint cache
 .eslintcache
@@ -41,4 +40,6 @@ ehthumbs.db
 $RECYCLE.BIN/
 
 # Local environment variables
+
 .env
+
