@@ -22,8 +22,6 @@ public class TaskUtil {
         if (String.isBlank(leadState) || leadState.length() > 2) {
             return null;
         }
-            
-        }  
         
         String taskPriority;
         
